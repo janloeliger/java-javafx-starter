@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:controller="ch.project.name.Controller" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <center>
+        <Label fx:id="messageLabel" text="Welcome to JavaFX!" />
+    </center>
+    <bottom>
+        <Button text="Say Hello" onAction="#onButtonClick" />
+    </bottom>
+</BorderPane>
